@@ -16,7 +16,7 @@ const truncatedDescription = computed(() => {
         description = description.substring(0, 90) + '...';
     }
     return description;
-})
+});
 
 </script>
 
